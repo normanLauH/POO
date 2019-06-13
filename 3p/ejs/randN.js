@@ -30,5 +30,6 @@ function randN() {
         sum+=Number(t[l]);
     }
     let avg = sum / (t.length - 1);
-    console.log(avg);
+    
+    document.getElementById("ans").innerHTML = "Minimo: " + minimum + "<br> Maximo: " + maximum + "<br> Promedio: " + avg;
 }
