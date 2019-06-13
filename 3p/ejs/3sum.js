@@ -11,6 +11,7 @@ function sum() {
         for(var m=0; m<tx.lenght; m++){
             for(var o=0; o<tx.lenght; o++){
                 console.log(parseInt(tx[n])+parseInt(tx[m])+parseInt(tx[o]))
+                console.log(n + " , " + m + " , " + o)
                 if((parseInt(tx[n])+parseInt(tx[m])+parseInt(tx[o])) === 0){
                     cadena += tx[n] + " " + tx[m] + " " + tx[o] + "<br>";
                     console.log(cadena)
