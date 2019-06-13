@@ -1,0 +1,1 @@
+const cube = (a) => typeof(a) === 'number' ? a * a * a : console.log('Valor incorrecto');
