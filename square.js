@@ -1,0 +1,1 @@
+const square = (a) => typeof(a) === 'number' ? a * a: console.log('Valor incorrecto');
